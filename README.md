@@ -1,5 +1,10 @@
 # dancarrollorg_hugo
 
+TODO:
+* Nest tag URLs under blog/
+* Get rid of categories generated pages
+
+
 This repo is using the Hugo Bearcub theme, which is added as a Git submodule:
 
 ```

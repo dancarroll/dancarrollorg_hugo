@@ -3,6 +3,10 @@
 TODO:
 * Nest tag URLs under blog/
 * Get rid of categories generated pages
+* Verify that the blog post link in using-windows-to-access-linux-host-name is correct
+* Update all internal links to use Hugo reference format
+* Validate all external links as well
+* Proofread all posts, add updates for anything obviously incorrect/wrong/misleading
 
 
 This repo is using the Hugo Bearcub theme, which is added as a Git submodule:

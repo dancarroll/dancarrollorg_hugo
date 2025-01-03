@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-In my [previous post](/blog/2010/12/linux-vm-for-web-development/), I talked about using a Linux virtual machine to ease the pain of doing web development in Windows.  There is one additional step I took to greatly ease the pain of interacting with the Linux machine.
+In my [previous post]({{% ref "2010-12-linux-vm-for-web-development" %}}), I talked about using a Linux virtual machine to ease the pain of doing web development in Windows.  There is one additional step I took to greatly ease the pain of interacting with the Linux machine.
 
 Initially, I had to interact with the server using its IP address.  While this process was straightforward for initiating a simple SSH session, it became increasingly frustrating when I needed to access it using HTTP and FTP.  Plus, since my home network uses DHCP, I often needed to log in to the virtual machine console directly in order to determine its new IP.
 

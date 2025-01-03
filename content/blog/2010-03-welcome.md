@@ -2,7 +2,7 @@
 date = '2010-03-15T00:24:13-05:00'
 title = 'Welcome!'
 slug = 'welcome'
-description = " Welcome to my new site at dancarroll.org.  Warning: exciting times ahead."
+description = "Welcome to my new site at dancarroll.org.  Warning: exciting times ahead."
 tags = [
     "general",
 ]

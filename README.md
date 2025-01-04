@@ -3,7 +3,6 @@
 TODO:
 * Nest tag URLs under blog/
 * Get rid of categories generated pages
-* Verify that the blog post link in using-windows-to-access-linux-host-name is correct
 * Update all internal links to use Hugo reference format
 * Validate all external links as well
 * Proofread all posts, add updates for anything obviously incorrect/wrong/misleading
@@ -25,4 +24,16 @@ Generate site for local testing:
 
 ```
 hugo server
+```
+
+## Tips
+
+### Link to internal post
+
+To link to another blog post, you can use a reference to the post filename.
+For example, to link to a post defined in `2020-01-test-post.md`, you can use
+the following:
+
+```
+[link text]({{% ref "2020-01-test-post" %}})
 ```

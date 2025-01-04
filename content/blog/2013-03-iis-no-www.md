@@ -10,19 +10,6 @@ tags = [
 ]
 +++
 
-slug: iis-no-www
----
-listable: true
-title: Configuring No-WWW for IIS on Azure
-description: >
-    Some tips for configuring setting up IIS' Web.Config file to ensure a good canonical name.
-created: !!timestamp '2013-03-22 00:45:00'
-tags:
-    - windows
-    - coding
-    - azure
----
-
 As part of the rollout of my site redesign, I've also switched hosts from [WebFaction](http://www.webfaction.com/) to [Windows Azure](http://www.windowsazure.com/).  WebFaction was a great value for a shared host, and I'll probably continue to use it in the future for small Python/Django projects, but I've been experimenting with Azure on some other projects and took the opportunity to make the switch.
 
 Where'd my .htaccess go?

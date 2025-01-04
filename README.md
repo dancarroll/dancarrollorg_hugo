@@ -1,5 +1,7 @@
 # dancarrollorg_hugo
 
+My personal website, generated using [Hugo](https://gohugo.io/).
+
 TODO:
 * Nest tag URLs under blog/
 * Get rid of categories generated pages

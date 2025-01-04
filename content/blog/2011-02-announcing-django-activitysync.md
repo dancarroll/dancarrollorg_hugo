@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-Today I'm happy to announce the release of my first reusable Django app, [django-activitysync](http://pypi.python.org/pypi/django-activitysync/">django-activitysync). The app allows easy integration of social network activities and status updates into Django projects. I've been using it to power the activity section of this website for the past year and have been eager to decouple it into a separate application.
+Today I'm happy to announce the release of my first reusable Django app, [django-activitysync](http://pypi.python.org/pypi/django-activitysync/). The app allows easy integration of social network activities and status updates into Django projects. I've been using it to power the activity section of this website for the past year and have been eager to decouple it into a separate application.
 
 What it provides
 ----------------
@@ -19,8 +19,8 @@ Adding support for a new network or activity type is as simple as implementing a
 
 How to use it
 -------------
-Django-activitysync is available as an installable Python package [on PyPI](http://pypi.python.org/pypi/django-activitysync/). You will also find detailed documentation there on installation, configuration, and use. The source code itself is also available in a [Bitbucket repository](https://bitbucket.org/dancarroll/django-activitysync/src).
+Django-activitysync is available as an installable Python package [on PyPI](http://pypi.python.org/pypi/django-activitysync/). You will also find detailed documentation there on installation, configuration, and use. The source code itself is also available in a [GitHub repository](https://github.com/dancarroll/django-activitysync).
 
 Future plans
 ------------
-This announcement marks the initial release of django-activitysync. I plan to continue supporting it with additional features, new social networks, and bug fixes. Feel free to open issues on the Bitbucket repository if you encounter bugs or have feature suggestions.
+This announcement marks the initial release of django-activitysync. I plan to continue supporting it with additional features, new social networks, and bug fixes. Feel free to open issues on the GitHub repository if you encounter bugs or have feature suggestions.

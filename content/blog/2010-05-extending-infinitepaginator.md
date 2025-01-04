@@ -9,7 +9,7 @@ tags = [
 ]
 +++
 
-In the [previous entry](/blog/2010/04/using-infinitepaginator/), I explained how to use the `InfinitePaginator` class from the [django-pagination](http://code.google.com/p/django-pagination/) project.  I wanted that article to focus strictly on integrating the functionality into another application, leaving out the additional tweaks I had made.
+In the [previous entry]({{% ref "2010-04-using-infinitepaginator" %}}), I explained how to use the `InfinitePaginator` class from the [django-pagination](http://code.google.com/p/django-pagination/) project.  I wanted that article to focus strictly on integrating the functionality into another application, leaving out the additional tweaks I had made.
 
 Setting up template context
 ---------------------------
@@ -88,4 +88,4 @@ When `cached_has_next` is `None`, then we can assume `has_next()` has never been
 The code
 --------
 
-All of the code for this site is hosted on Bitbucket.  Specifically, you may want to get the [updated version of InfinitePage](http://bitbucket.org/dancarroll/dancarrollorg/src/71911eb7db9a/mysite/blog/paginator.py).
+All of the code for this site is hosted on Bitbucket.  Specifically, you may want to get the [updated version of InfinitePage](https://github.com/dancarroll/dancarrollorg_django/blob/master/mysite/blog/paginator.py).

@@ -11,7 +11,7 @@ tags = [
 Welcome to my new site at dancarroll.org.  It's been about three years since I last maintained a blog, which was hosted on a different
 domain.  Since that time, I graduated from college and entered the working world as a software developer.  Lately, I have wanted to return to blogging in order to have a place to discuss my projects and interests.  As with most software developers, my interests span many different technologies, and I hope to share some of those experiences here.
 
-As for who exactly I am, more information is available on the [About](/about/) section of this site.  Quick summary: I am currently working for Microsoft on the Outlook team.  That said, this site will reflect my personal opinions and not those of my employer.
+As for who exactly I am, more information is available on the [About]({{% ref "about" %}}) section of this site.  Quick summary: I am currently working for Microsoft on the Outlook team.  That said, this site will reflect my personal opinions and not those of my employer.
 
 About this site
 ---------------

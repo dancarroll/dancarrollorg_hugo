@@ -12,7 +12,7 @@ tags = [
 
 This site has been quiet for a long time.  My last post was over a year ago in February 2012.  That post before that was yet another year prior.  With a full-time job and other personal commitments, blog posting and other side projects easily fall off the radar.
 
-Take my site's new design, rolling out today.  I initially started working on it in February 2011, going by the file creation timestamps on my machine.  I worked on it for a week or so, got some feedback, then dropped it.  A year later, I took the big step to actually create a source repository on [Bitbucket](https://bitbucket.org/) to make sure the code was backed up somewhere safe (I don't recall making any other progress at the time).
+Take my site's new design, rolling out today.  I initially started working on it in February 2011, going by the file creation timestamps on my machine.  I worked on it for a week or so, got some feedback, then dropped it.  A year later, I took the big step to actually create a source repository on Bitbucket to make sure the code was backed up somewhere safe (I don't recall making any other progress at the time).
 
 It took me over a year from that point to actually pick up the project and push it through to completion.
 
@@ -28,7 +28,7 @@ Like Steve, I also made a transition in how the site is implemented.  Previously
 
 This new iteration of the site is built using [Hyde](https://github.com/hyde/hyde), a static web site generator built in Python.  Hyde allows me to work with Python code and templating languages, much like the one used with Django, but the end result is a static HTML and CSS website (rather than a dynamic site backed by executing Python code and databases).  The end product can now be hosted anywhere with relatively good performance.
 
-And like the previous iteration, the new version is still open source.  For ease of browsing both implementations, the new design lives in a [separate code repository on Bitbucket](https://bitbucket.org/dancarroll/dancarrollorg_hyde).
+And like the previous iteration, the new version is still open source.  For ease of browsing both implementations, the new design lives in a [separate code repository on GitHub](https://github.com/dancarroll/dancarrollorg_hyde).
 
 The problems
 ------------

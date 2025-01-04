@@ -2,19 +2,15 @@
 
 My personal website, generated using [Hugo](https://gohugo.io/).
 
-TODO:
-* Nest tag URLs under blog/
-* Get rid of categories generated pages
-* Update all internal links to use Hugo reference format
-* Validate all external links as well
-* Proofread all posts, add updates for anything obviously incorrect/wrong/misleading
-
+## Theme
 
 This repo is using the Hugo Bearcub theme, which is added as a Git submodule:
 
 ```
 git submodule add https://github.com/clente/hugo-bearcub themes/hugo-bearcub
 ```
+
+## Developer workflow
 
 Create new page:
 

@@ -8,11 +8,18 @@ copyright = "Dan Carroll"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+[taxonomies]
+  tag = 'tags'
+
 [permalinks]
   [permalinks.page]
     blog = '/blog/:year/:month/:slug/'
   [permalinks.section]
     blog = '/blog/'
+  [permalinks.term]
+    tags = '/blog/tags/:slug/'
+  [permalinks.taxonomy]
+    tags = '/blog/tags/'
 
 # Setup syntax highlighting without inline styles. For more information about
 # why you'd want to avoid inline styles, see

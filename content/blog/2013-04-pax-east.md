@@ -12,7 +12,7 @@ I wanted to write a quick post with some general impressions from my time at the
 
 The venue
 ---------
-PAX East is held at the [Boston Convention & Exhibition Center](http://www.advantageboston.com/bcec.aspx), and is the perfect location for this type of event.  The building has a ton of space, and can easily handle the number of people that attend.  It doesn't have the wacky charm that the Washington State Convention Center has (the site of PAX Prime), but I'll take the elbow room over charm any day.
+PAX East is held at the [Boston Convention & Exhibition Center](https://www.signatureboston.com/bcec), and is the perfect location for this type of event.  The building has a ton of space, and can easily handle the number of people that attend.  It doesn't have the wacky charm that the Washington State Convention Center has (the site of PAX Prime), but I'll take the elbow room over charm any day.
 
 The games
 ---------
@@ -20,7 +20,7 @@ The games
 
 **Nutjitsu**: This was a brand new game from [Ninjabee](http://www.ninjabee.com/).  In its current state, it is a simple path building and stealth game built for tablets, with a fun art style and main character.  I'm a big fan of their Kefling series of games, so I'm looking forward to playing this when it gets released.
 
-**Perspective**: This game was one of the games playable at the Digipen booth, as it was a [student project](https://www.digipen.edu/?id=1170&proj=25930).  It's an excellent platformer that makes very clever use out of the interaction between 2D and 3D space.  I highly recommend checking it out, as well as some of the other Digipen games from recent years.
+**Perspective**: This game was one of the games playable at the Digipen booth, as it was a [student project](https://www.digipen.edu/showcase/student-games/perspective).  It's an excellent platformer that makes very clever use out of the interaction between 2D and 3D space.  I highly recommend checking it out, as well as some of the other Digipen games from recent years.
 
 The talks
 ---------
@@ -28,4 +28,4 @@ Beyond playing new games, I really enjoy PAX for the variety of industry talks a
 
 **Mass Effect Retrospective**: This panel had a number of designers, writers, and even a voice actor from the Mass Effect series of games.  I had envisioned fans with pitchforks, still angry about the ending of *Mass Effect 3*, but the panel ended up being mostly fluff and softball questions.  It was still nice to hear some background information over various bits of the development process.
 
-**Classic Videogame Panel**: This panel was hosted by [ACAM](http://classicarcademuseum.org/index.html), who also have a classic arcade game room at PAX East.  They hosted a similar panel last year, with a number of the same panelists, but that didn't dampen my enthusiasm.  I have no problem listening to those guys share stories and talk about what it was like to develop videogames back in the 80s.
+**Classic Videogame Panel**: This panel was hosted by [ACAM](https://www.classicarcademuseum.org/), who also have a classic arcade game room at PAX East.  They hosted a similar panel last year, with a number of the same panelists, but that didn't dampen my enthusiasm.  I have no problem listening to those guys share stories and talk about what it was like to develop videogames back in the 80s.

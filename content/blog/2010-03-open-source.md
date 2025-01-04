@@ -16,7 +16,8 @@ Since these projects have been so valuable to me, I wanted to make my code avail
 
 Where
 -----
-First things first, the code is available on [Bitbucket](http://bitbucket.org/dancarroll/dancarrollorg/) (with a mirror on [GitHub](http://github.com/dancarroll/dancarrollorg)).  Feel free to browse the code, clone the repository, and ask me questions.  Also, I would be more than happy to receive bug reports, fixes, and suggestions.
+First things first, the code is available on [GitHub](https://github.com/dancarroll/dancarrollorg_django) (**note**: this is not the
+current version of the site).  Feel free to browse the code, clone the repository, and ask me questions.  Also, I would be more than happy to receive bug reports, fixes, and suggestions.
 
 Why
 ---

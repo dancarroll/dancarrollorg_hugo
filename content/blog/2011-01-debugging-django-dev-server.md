@@ -23,7 +23,7 @@ I do not have to worry about security issues with the development server listeni
 
 Set up server to send debug information to local network
 --------------------------------------------------------
-While the first step will allow us to access the development server from the host machine, we will not be able to see debugging information (for example, the [django-debug-toolbar](https://github.com/robhudson/django-debug-toolbar) will not be displayed on the host machine, even if `[DEBUG](http://docs.djangoproject.com/en/1.2/ref/settings/#debug)` is set to True). Django uses another setting, `[INTERNAL_IPS](http://docs.djangoproject.com/en/1.2/ref/settings/#internal-ips)`, to determine which machines are allowed to view debugging information.
+While the first step will allow us to access the development server from the host machine, we will not be able to see debugging information (for example, the [django-debug-toolbar](https://github.com/django-commons/django-debug-toolbar) will not be displayed on the host machine, even if [`DEBUG`](http://docs.djangoproject.com/en/1.2/ref/settings/#debug) is set to True). Django uses another setting, [`INTERNAL_IPS`](http://docs.djangoproject.com/en/1.2/ref/settings/#internal-ips), to determine which machines are allowed to view debugging information.
 
 For a typical installation, I set `INTERNAL_IPS` to only specify `127.0.0.1`, allowing me to easily debug Django apps running on the local machine.
 
@@ -31,7 +31,7 @@ For a typical installation, I set `INTERNAL_IPS` to only specify `127.0.0.1`, al
   INTERNAL_IPS = ('127.0.0.1',)
 ```
 
-Now, since the setting is a tuple, we could easily add the IP address of the host machine and call it a day. We would run into the same problem as the last post, which is the reason I [installed Samba in order to access the VM using its host name instead of IP address](/blog/2010/12/using-windows-to-access-linux-host-name/). Whenever the machine gets a new IP address from the DHCP server, I would have to update the setting. I found a great solution to this problem in this [snippet](http://djangosnippets.org/snippets/1380/), which adds wildcard support to `INTERNAL_IPS`. I personally put this code inside an if block, so that it only executes in a development setting. Here is the code from the end of my settings.py file:
+Now, since the setting is a tuple, we could easily add the IP address of the host machine and call it a day. We would run into the same problem as the last post, which is the reason I [installed Samba in order to access the VM using its host name instead of IP address]({{% ref "2010-12-using-windows-to-access-linux-host-name" %}}). Whenever the machine gets a new IP address from the DHCP server, I would have to update the setting. I found a great solution to this problem in this [snippet](http://djangosnippets.org/snippets/1380/), which adds wildcard support to `INTERNAL_IPS`. I personally put this code inside an if block, so that it only executes in a development setting. Here is the code from the end of my settings.py file:
 
 ```python
   if DEBUG:

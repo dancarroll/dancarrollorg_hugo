@@ -2,7 +2,7 @@ baseURL = 'https://dancarroll.org/'
 defaultContentLanguage = "en"
 languageCode = 'en-us'
 title = 'Dan Carroll'
-theme = "hugo-bearcub"
+theme = "dancarrollorg"
 copyright = "Dan Carroll"
 
 # Generate a nice robots.txt for SEO
@@ -36,21 +36,15 @@ enableRobotsTXT = true
 [services]
   [services.disqus]
     shortname = 'dancarroll'
+  [services.googleAnalytics]
+    id = 'G-PBDQ0CCMLN'
 
 [params]
   # The description of your website
-  description = "Dan Carroll's personal website"
-
-  madeWith = "Made with [Hugo](https://gohugo.io/) + [Bear Cub](https://github.com/clente/hugo-bearcub)"
+  description = "Personal blog of Dan Carroll, a developer based in Massachusetts. Topics include C#, Python, Django, and gaming."
 
   # The path to your favicon
-  favicon = "images/favicon.png"
-
-  # These images will show up when services want to generate a preview of a link
-  # to your site. Ignored if `generateSocialCard = true`. For more information
-  # about previews, see https://gohugo.io/templates/internal#twitter-cards and
-  # https://gohugo.io/templates/internal#open-graph
-  images = ["images/share.webp"]
+  favicon = "favicon.png"
 
   # This title is used as the site_name on the Hugo's internal opengraph
   # structured data template
@@ -60,20 +54,6 @@ enableRobotsTXT = true
   # formatting, see https://gohugo.io/functions/format/
   dateFormat = "2006-01-02"
 
-  # (EXPERIMENTAL) This theme has two options for its CSS styles: "original" and
-  # "herman". The former is what you see on Bear Cub's demo (an optimized
-  # version of Hugo Bear Blog), while the latter has a more modern look based on
-  # Herman Martinus's version of the Blogster Minimal theme for Astro.
-  themeStyle = "original"
-
-  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
-  # for posts that don't have `images` defined in their front matter; By setting
-  # `generateSocialCard` to false, you can prevent this behavior. For more
-  # information see layouts/partials/social_card.html
-  generateSocialCard = false
-
-  # Author metadata. This is mostly used for the RSS feed of your site, but the
-  # email is also added to the footer of each post. You can hide the "reply to"
-  # link by using a `hideReply` param in front matter.
+  # Author metadata.
   [params.author]
-    name = "Dan Carroll" # Your name as shown in the RSS feed metadata
+    name = "Dan Carroll"

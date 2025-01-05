@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+{{ if not .Params.menu }}
+<p class="date">
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}
+  Posted <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>.
+
+  {{ range (.GetTerms "tags") }}
+  <a class="blog-tags" href="{{ .RelPermalink }}">#{{ lower .LinkTitle }}</a>
+  {{ end }}
+</p>
+{{ end }}
+
+<content>
+  {{ .Content }}
+</content>
+
+{{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+{{ template "_internal/disqus.html" . }}
+{{ end }}
+
+{{ end }}

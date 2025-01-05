@@ -1,7 +1,6 @@
 ---
 title: "Home"
-menu: "main"
-weight: 1
+layout: home
 ---
 
 My name is Dan. I'm a programmer based in Newton, Massachusetts. Take a look at what I've [written]({{% ref "blog" %}}), my

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+<head>
+  <link href='http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic' rel='stylesheet'
+    type='text/css'>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  {{- partial "favicon.html" . -}}
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" site.Title .Title }}{{ end }}</title>
+
+  {{- partial "seo_tags.html" . -}}
+
+  {{ $style := resources.Get "css/aal.css" | minify }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+  {{ $style := resources.Get "css/base.css" | minify }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+
+  {{ if (.Page.Store.Get "hasCodeBlock") }}
+  {{ $syntax := resources.Get "css/syntax.css" | minify }}
+  <link href="{{ $syntax.RelPermalink }}" rel="stylesheet">
+  {{ end }}
+
+  {{ with .OutputFormats.Get "rss" -}}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  <!-- Google analytics code -->
+  {{ template "_internal/google_analytics.html" . }}
+</head>
+
+<body>
+
+  <div id="header-container">
+    <div class="top group" id="header">
+      <header>
+        <a href="/">{{ .Site.Title | lower }}</a>
+      </header>
+
+      <nav>
+        {{ range .Site.Menus.main.ByWeight }}
+        <a href="{{ .URL }}">{{ .Name | lower }}</a>
+        {{ end }}
+        <a href='{{ absURL "index.xml" }}'>feed</a>
+      </nav>
+    </div>
+  </div>
+
+  <div id="main-wrap">      
+    <div id="content">
+      <main id="main-content">
+        {{- block "main" . }}{{- end }}
+      </main>
+    </div>
+
+    <footer>
+      {{- partial "footer.html" . -}}
+    </footer>
+  </div>
+
+</body>
+</html>

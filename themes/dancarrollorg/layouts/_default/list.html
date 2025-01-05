@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{ .Content }}
+
+  {{ if .Data.Singular }}
+  <h1>Tagged with '{{ .Title | lower }}'</h1>
+  {{ end }}
+
+  <div class="entry-list">
+    <ol class="group">
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          <div class="bordertop"><span class="snip">{{ .Description }}</span></div>
+        </li>
+      {{ end }}
+    </ol>
+  </div>
+{{ end }}

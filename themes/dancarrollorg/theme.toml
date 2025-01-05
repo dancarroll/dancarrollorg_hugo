@@ -1,0 +1,23 @@
+name = 'Dancarroll.org Hugo theme'
+license = 'MIT'
+licenselink = 'https://github.com/dancarroll/dancarrollorg_hugo/tree/main/themes/dancarrollorg/LICENSE'
+description = 'Custom theme for dancarroll.org'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/dancarroll/dancarrollorg_hugo'
+
+# If you have a running demo of the theme
+demosite = 'https://dancarroll.org/'
+
+# Taxonomy terms
+tags = ['blog', 'personal']
+features = ['rss']
+
+# If the theme has a single author
+[author]
+  name = 'Dan Carroll'
+  homepage = 'https://dancarroll.org/'
+
+[module]
+  [module.hugoVersion]
+    min = "0.140.2"

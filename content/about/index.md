@@ -2,6 +2,7 @@
 title: "About"
 menu: "main"
 weight: 4
+description: Some information about Dan Carroll.
 ---
 
 **Name:** Dan Carroll  

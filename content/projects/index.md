@@ -2,6 +2,7 @@
 title: "Projects"
 menu: "main"
 weight: 3
+description: A selection of projects I have worked on.
 ---
 
 I currently have my open source projects [hosted on GitHub][github].

@@ -11,15 +11,12 @@
 
   {{- partial "seo_tags.html" . -}}
 
-  {{ $style := resources.Get "css/aal.css" | minify }}
-  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-  {{ $style := resources.Get "css/base.css" | minify }}
-  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-
-  {{ if (.Page.Store.Get "hasCodeBlock") }}
+  {{ $framework := resources.Get "css/aal.css" | minify }}
+  <link href="{{ $framework.RelPermalink }}" rel="stylesheet">
+  {{ $base := resources.Get "css/base.css" | minify }}
+  <link href="{{ $base.RelPermalink }}" rel="stylesheet">
   {{ $syntax := resources.Get "css/syntax.css" | minify }}
   <link href="{{ $syntax.RelPermalink }}" rel="stylesheet">
-  {{ end }}
 
   {{ with .OutputFormats.Get "rss" -}}
   {{ printf `

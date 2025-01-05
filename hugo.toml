@@ -38,6 +38,8 @@ enableRobotsTXT = true
     shortname = 'dancarroll'
   [services.googleAnalytics]
     id = 'G-PBDQ0CCMLN'
+  [services.rss]
+    limit = 5
 
 [params]
   # The description of your website

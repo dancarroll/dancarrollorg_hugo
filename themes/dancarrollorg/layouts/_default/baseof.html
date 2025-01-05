@@ -58,3 +58,8 @@
 
 </body>
 </html>
+
+<!-- Hook to run code to generate a Cloudflare _redirects rule. -->
+{{ if .IsHome }}
+{{- partial "gen_cloudflare_redirects.html" . -}}
+{{ end }}

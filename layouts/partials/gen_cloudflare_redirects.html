@@ -1,0 +1,20 @@
+{{ if .IsHome }}
+  {{ $s := "" }}
+
+  <!-- Two test redirect rules. -->
+  {{ $s = printf "%s/home301 / 301\n" $s }}
+  {{ $s = printf "%s/home302 / 302\n" $s }}
+
+  <!-- Redirect old RSS feed URLs, since I didn't find a way to alias these in Hugo. -->
+  {{ $s = printf "%s/feeds/latest/ /index.xml 301\n" $s }}
+  {{ $s = printf "%s/feeds/tags/:tag/ /blog/tags/:tag/index.xml 301\n" $s }}
+
+  <!-- Generate a redirect rule for all Hugo aliases. -->
+  {{ range $p := site.Pages }}
+    {{ range .Aliases }}
+      {{ $s = printf "%s%s %s 301\n" $s . $p.RelPermalink }}
+    {{ end }}
+  {{ end }}
+
+  {{ (resources.FromString "_redirects" $s).Publish }}
+{{ end }}

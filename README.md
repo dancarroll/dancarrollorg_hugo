@@ -35,3 +35,8 @@ the following:
 ```
 [link text]({{% ref "2020-01-test-post" %}})
 ```
+
+## Potential posts
+
+* Migration from Hyde to Hugo
+* Generating a Cloudflare `_redirects` file

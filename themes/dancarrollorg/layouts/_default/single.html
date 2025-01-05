@@ -17,8 +17,12 @@
   {{ .Content }}
 </content>
 
+<!-- Disqus comments. Only show on blog posts (pages not in the menu), and don't
+     include for local development servers. -->
+{{ if not .Params.menu }}
 {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
 {{ template "_internal/disqus.html" . }}
+{{ end }}
 {{ end }}
 
 {{ end }}

@@ -7,20 +7,28 @@ description: A selection of projects I have worked on.
 
 I currently have my open source projects [hosted on GitHub][github].
 
-[dancarrollorg_hugo][dc_hugo]: This site's code, primarily written in Markdown and YAML and generated using [Hugo][hugo].
+[dancarrollorg_hugo][dc_hugo]: This site's code, primarily written in Markdown
+and Go templates and generated using [Hugo][hugo] ([previously][dc_hyde] using
+the Hyde site generator).
 
 [aoc_2024][aoc2024]: Solutions to the 2024 [Advent of Code][aoc], written in Dart.
 
-[dart_clique][dart_clique]: Implementation of the Bron–Kerbosch algorithm in Dart, which was an offshoot from an Advent of Code problem.
+[dart_clique][dart_clique]: Implementation of the Bron–Kerbosch algorithm in Dart,
+which was an offshoot from an Advent of Code problem.
 
-[qmk_bongo][qmk_bongo]: Utility code to be used from [QMK][qmk] to add an animation of [Bongo Cat][bongocat] to a keyboard's OLED display.
+[qmk_bongo][qmk_bongo]: Utility code to be used from [QMK][qmk] to add an
+animation of [Bongo Cat][bongocat] to a keyboard's OLED display.
 
-[dancarrollorg_django][dc_django]: Old version of this site, written in Python using the [Django web framework][django]
+[dancarrollorg_django][dc_django]: Old version of this site, written in Python
+using the [Django web framework][django]
 
-[django-activitysync][activitysync]: Social activity aggregator for Django projects, which was used on the old version of this site.
+[django-activitysync][activitysync]: Social activity aggregator for Django
+projects, which was used on the old version of this site.
 
-[sitemap-diff][sitemap]: Simple C# console app for diffing two sitemaps -- very helpful when switching to a new site framework, to
-ensure all URLs remain consistent (pet peeve of mine when old URLs break -- looking at you, Microsoft MSDN!).
+[sitemap-diff][sitemap]: Simple C# console app for diffing two sitemaps --
+very helpful when switching to a new site framework, to
+ensure all URLs remain consistent (pet peeve of mine when old URLs break --
+looking at you, Microsoft MSDN!).
 
 
 [github]: https://github.com/dancarroll
@@ -29,6 +37,7 @@ ensure all URLs remain consistent (pet peeve of mine when old URLs break -- look
 [aoc]: https://adventofcode.com/
 [dart_clique]: https://github.com/dancarroll/dart_clique
 [dc_hugo]: https://github.com/dancarroll/dancarrollorg_hugo
+[dc_hyde]: https://github.com/dancarroll/dancarrollorg_hyde
 [dc_django]: https://github.com/dancarroll/dancarrollorg_django
 [django]: https://www.djangoproject.com/
 [activitysync]: https://github.com/dancarroll/django-activitysync

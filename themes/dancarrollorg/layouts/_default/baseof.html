@@ -23,6 +23,17 @@
   <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
+  {{ if .IsHome }}
+    <script type="application/ld+json">
+      {
+        "@context" : "https://schema.org",
+        "@type" : "WebSite",
+        "name" : {{ site.Title }},
+        "url" : {{ site.BaseURL }}
+      }
+    </script>
+  {{ end }}
+
   <!-- Google analytics code -->
   {{ template "_internal/google_analytics.html" . }}
 </head>

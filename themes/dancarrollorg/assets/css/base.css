@@ -19,6 +19,7 @@ div#main-wrap {
 div#content img {
   margin: 0px auto;
   display: block;
+  width: 90%;
 }
 
 a {

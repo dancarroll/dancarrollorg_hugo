@@ -5,6 +5,7 @@ slug = 'hugo'
 description = "Switching to a new, blazing fast static site generator."
 tags = [
     "general",
+    "cloudflare",
     "coding",
 ]
 +++

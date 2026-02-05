@@ -21,7 +21,7 @@
      include for local development servers. -->
 {{ if not .Params.menu }}
 {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
-{{ template "_internal/disqus.html" . }}
+{{- partial "disqus.html" . -}}
 {{ end }}
 {{ end }}
 
